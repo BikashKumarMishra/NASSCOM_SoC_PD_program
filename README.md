@@ -1,3 +1,3 @@
 # NASSCOM_SoC_PD_program
 
-
+In processor design, the process begins by modeling the system's specifications, often using a high-level C model. The testbench, written in C, is compiled and run to verify that the specifications are correct. Once verified, the hardware description is developed using Register Transfer Level (RTL) code, typically written in Verilog. This RTL description includes the processor and various peripherals such as ADCs, PLLs, memory, and GPIO pins, which are represented as soft copies of the hardware. These peripheral IPs (Intellectual Properties) are categorized into two types: macros and analog IPs. The analog IPs, including ADCs, PLLs, memory, and GPIO pins, are designed once and reused multiple times in the circuitry. After integrating these components into the SoC, the same application program is run to verify the functionality and ensure proper SoC integration.
